@@ -1,7 +1,5 @@
-// Wisp server
-window.WISP_URL = "wss://glseries.net/wisp/";
+// Configuration for static deployment
+// Wisp WebSocket server URL
+// Using Mercury Workshop's public Wisp server
 
-// Override Scramjet's default prefix so it lives inside the service worker's scope
-window.SCRAMJET_CONFIG = {
-  prefix: "/scramjet-proxy/~/sj/"
-};
+window.WISP_URL = "wss://wisp.mercurywork.shop/";
